@@ -2,111 +2,139 @@
 <html lang="ar">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>حرف يدوية | خراطة الأخشاب</title>
+<title>حرف يدوية - خراطة خشب</title>
 
 <style>
+
 body{
 margin:0;
-font-family:Tahome;
-direction:rtl;
-background:#f4f1ec;
+font-family:Arial;
+background:#1c1c1c;
+color:white;
 text-align:center;
 }
 
 header{
-background:#3a2a1f;
-color:white;
-padding:50px 20px;
+background:#3e2c1c;
+padding:20px;
+font-size:28px;
+font-weight:bold;
 }
 
-header h1{
-margin:0;
-font-size:32px;
+.hero{
+padding:80px 20px;
+background:#2b1d12;
 }
 
-section{
-padding:40px 20px;
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+font-size:20px;
+margin-top:10px;
+}
+
+.button{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#c89b3c;
+color:black;
+text-decoration:none;
+font-weight:bold;
+border-radius:6px;
 }
 
 .services{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:20px;
+padding:50px 20px;
 }
 
-.card{
-background:white;
-padding:20px;
-width:250px;
-border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
-}
-
-.btn{
-background:#a47148;
-color:white;
-padding:15px 25px;
-text-decoration:none;
-border-radius:8px;
-display:inline-block;
+.service-box{
+background:#2a2a2a;
 margin:10px;
-font-size:18px;
+padding:20px;
+display:inline-block;
+width:200px;
+border-radius:8px;
+}
+
+.gallery{
+padding:50px;
+}
+
+.gallery img{
+width:250px;
+margin:10px;
+border-radius:10px;
 }
 
 footer{
-background:#3a2a1f;
-color:white;
+background:#3e2c1c;
 padding:20px;
-margin-top:30px;
+margin-top:40px;
 }
+
 </style>
+
 </head>
 
 <body>
 
 <header>
-<h1>حرف يدوية</h1>
-<p>متخصصون في خراطة الأخشاب وتصنيع أرجل الأنتريهات</p>
+حرف يدوية - خراطة خشب
 </header>
 
-<section>
-<h2>خدماتنا</h2>
+<section class="hero">
 
-<div class="services">
+<h1>خراطة أرجل الأنتريهات</h1>
 
-<div class="card">
-<h3>خراطة أرجل كنب</h3>
-<p>تصميم وتنفيذ جميع أشكال الأرجل الخشبية بدقة عالية.</p>
-</div>
+<p>
+تصنيع وتشكيل الخشب بدقة وجودة عالية
+</p>
 
-<div class="card">
-<h3>تفصيل حسب الطلب</h3>
-<p>تنفيذ المقاسات والتصميمات الخاصة بالعملاء.</p>
-</div>
-
-<div class="card">
-<h3>تشطيب احترافي</h3>
-<p>تشطيب ناعم وجودة عالية تناسب الأثاث الحديث والكلاسيك.</p>
-</div>
-
-</div>
-</section>
-
-<section>
-<h2>تواصل معنا</h2>
-
-<a class="btn" href="tel:01224963027">📞 اتصال مباشر</a>
-
-<a class="btn" href="https://wa.me/201224963027">
-💬 واتساب
+<a class="button" href="tel:01224963027">
+اتصل الآن
 </a>
 
 </section>
 
+<section class="services">
+
+<h2>خدماتنا</h2>
+
+<div class="service-box">
+خراطة أرجل كنب
+</div>
+
+<div class="service-box">
+أعمدة خشبية
+</div>
+
+<div class="service-box">
+تفصيل حسب الطلب
+</div>
+
+<div class="service-box">
+تشطيب وصنفرة
+</div>
+
+</section>
+
+<section class="gallery">
+
+<h2>أعمالنا</h2>
+
+<img src="wood1.jpg">
+<img src="wood2.jpg">
+<img src="wood3.jpg">
+
+</section>
+
 <footer>
-<p>© 2026 حرف يدوية - جميع الحقوق محفوظة</p>
+
+📞 01224963027
+
 </footer>
 
 </body>
