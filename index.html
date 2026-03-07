@@ -2,66 +2,92 @@
 <html lang="ar">
 <head>
 <meta charset="UTF-8">
-<title>حرف يدوية - خراطة خشب</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>حرف يدوية | خراطة الأخشاب</title>
 
 <style>
 
 body{
 margin:0;
 font-family:Arial;
-background:url("https://images.unsplash.com/photo-1560185127-6ed189bf02f4");
-background-size:cover;
+direction:rtl;
 color:white;
-text-align:center;
+background:#111;
 }
 
 header{
-background:#3e2c1c;
+background:#2b1d12;
 padding:20px;
-font-size:28px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:26px;
 font-weight:bold;
+color:#d4a44c;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-size:18px;
 }
 
 .hero{
-padding:80px 20px;
-background:#2b1d12;
+height:80vh;
+background:url("https://images.unsplash.com/photo-1503387762-592deb58ef4e");
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
 }
 
 .hero h1{
-font-size:40px;
+font-size:45px;
+background:rgba(0,0,0,0.6);
+padding:10px 20px;
 }
 
 .hero p{
-font-size:20px;
-margin-top:10px;
+font-size:22px;
+background:rgba(0,0,0,0.6);
+padding:10px;
 }
 
-.button{
-display:inline-block;
+.btn{
 margin-top:20px;
-padding:12px 25px;
-background:#c89b3c;
+padding:15px 30px;
+background:#d4a44c;
 color:black;
 text-decoration:none;
-font-weight:bold;
+font-size:18px;
 border-radius:6px;
 }
 
 .services{
-padding:50px 20px;
+padding:60px 20px;
+text-align:center;
+background:#1a1a1a;
 }
 
 .service-box{
-background:#2a2a2a;
-margin:10px;
-padding:20px;
 display:inline-block;
-width:200px;
-border-radius:8px;
+background:#2a2a2a;
+padding:25px;
+margin:10px;
+width:220px;
+border-radius:10px;
 }
 
 .gallery{
-padding:50px;
+padding:60px 20px;
+text-align:center;
 }
 
 .gallery img{
@@ -71,48 +97,48 @@ border-radius:10px;
 }
 
 footer{
-background:#3e2c1c;
+background:#2b1d12;
 padding:20px;
-margin-top:40px;
+text-align:center;
 }
 
-</style>
-
-</head>
-<a href="https://wa.me/201224963027" class="whatsapp">
-💬
-</a>
-
-<style>
 .whatsapp{
 position:fixed;
 bottom:20px;
 right:20px;
 background:#25D366;
-color:white;
-font-size:28px;
 padding:15px;
 border-radius:50%;
+color:white;
+font-size:28px;
 text-decoration:none;
 }
+
 </style>
+</head>
+
 <body>
 
 <header>
-حرف يدوية - خراطة خشب
+
+<div class="logo">حرف يدوية</div>
+
+<nav>
+<a href="#">الرئيسية</a>
+<a href="#">خدماتنا</a>
+<a href="#">أعمالنا</a>
+<a href="#">تواصل</a>
+</nav>
+
 </header>
 
 <section class="hero">
 
-<h1>خراطة أرجل الأنتريهات</h1>
+<h1>خراطة الأخشاب باحتراف</h1>
 
-<p>
-تصنيع وتشكيل الخشب بدقة وجودة عالية
-</p>
+<p>تصنيع أرجل الأنتريهات والأعمال الخشبية بدقة وجودة عالية</p>
 
-<a class="button" href="tel:01224963027">
-اتصل الآن
-</a>
+<a class="btn" href="tel:01224963027">اتصل الآن</a>
 
 </section>
 
@@ -120,21 +146,10 @@ text-decoration:none;
 
 <h2>خدماتنا</h2>
 
-<div class="service-box">
-خراطة أرجل كنب
-</div>
-
-<div class="service-box">
-أعمدة خشبية
-</div>
-
-<div class="service-box">
-تفصيل حسب الطلب
-</div>
-
-<div class="service-box">
-تشطيب وصنفرة
-</div>
+<div class="service-box">خراطة أرجل كنب</div>
+<div class="service-box">تفصيل حسب الطلب</div>
+<div class="service-box">أعمدة خشبية</div>
+<div class="service-box">تشطيب وصنفرة</div>
 
 </section>
 
@@ -153,6 +168,8 @@ text-decoration:none;
 📞 01224963027
 
 </footer>
+
+<a href="https://wa.me/201224963027" class="whatsapp">💬</a>
 
 </body>
 </html>
